@@ -1,0 +1,134 @@
+
+
+/*header div{
+    width: 100%;
+    height: 17vh;
+    background-color: #B62717;
+}*/
+
+.flex{
+    display: flex;
+}
+
+.titrepage{
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.titrepage h1{
+    height: 20%;
+    font-size: 75px;
+    margin-bottom: 5%;
+    color: #B62717;
+}
+
+.contain1{
+    justify-content: center;
+    width: 100%;
+    /*background-color: skyblue;*/
+}
+
+.container{
+    box-shadow: purple (0, 0, 25px, 25px); 
+    width: 80%;
+    /*background-color: seagreen;*/
+}
+
+.la{
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    height: auto;
+    /*background-color: sandybrown;*/
+}
+
+.la .mangas p{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    transform: translate(-50%, -50%);
+    background-color: #B62717;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 5%;
+    padding-left: 4%;
+    text-align: center;
+    border-radius: 10px;
+    color: #EBE0C3;
+    font-size: 30px;
+}
+
+.la .mangas p i{
+    position: absolute;
+    left: 96%;
+    font-size: 690%;
+    color: #B62717;
+    transform: translate(-50%,-50%);
+    top: 38%;
+} 
+
+
+.mangas{
+    width: 100%;
+    justify-content: space-around;
+    background-color: slategrey;
+    padding-top: 4%;
+    background: #FDFCDC;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 27px;
+}
+
+.mangas a{
+    display: flex;
+    width: 12%;
+    align-items: center;
+    flex-direction: column;
+    line-height: 5vh;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.mangas a img{
+    width: 100%;
+}
+
+.alpha{
+    position: absolute;
+    right: 2%;
+    top: 35%;
+}
+
+.alpha ul{
+    font-size: 25px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.alpha ul li{
+    display: flex;
+    border: 3px solid#B62717;
+    background: #B62717;
+    color: #FDFCDC;
+    border-radius: 10px;
+    margin: 15%;
+    padding-left: 35%;
+    padding-right: 35%;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    opacity: 50%;
+    transition: 0.33s;
+}
+
+.alpha ul li:hover{
+    cursor: pointer;
+    color: #F9D781;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.alpha ul li a{
+    text-decoration: none;
+    color: #FDFCDC;
+}
