@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html{
+    font-size: 100%;
+}
+
 body{
     background-color: #FDFCDC;
     font-family: 'Righteous', cursive;
@@ -52,7 +56,7 @@ svg#Capa_1{
 }
 
 .mangatitle{
-    font-size: 45px;
+    font-size: 2.9em;
     margin-left: 5%;
 }
 
@@ -77,7 +81,7 @@ svg#Capa_1{
     width: 33%;
     display: flex;
     justify-content: space-evenly;
-    font-size: 25px;
+    font-size: 1.8em;
 }
 
 
@@ -106,63 +110,12 @@ svg#Capa_1{
     margin-right: 20%;
 }
 
-.Carré1 {
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    width: 900px;
-    height: 400px;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 27px;
-}
 
-.PetitRectangle {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    color: #FDFCDC;
-    font-size: 25px;
-    position: absolute;
-    top: 21%;
-    left: 22%;
-    width: 260px;
-    height: 40px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background: #B62717;
-    border-radius: 18px
-}
-
-.CarréDeux {
-    position: absolute;
-    top: 100%;
-    left: 25%;
-    width: 900px;
-    height: 400px;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 27px;
-}
-
-.PetitRectangleDeux {
-    position: absolute;
-    left: 22%;
-    top: 96%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    color: #FDFCDC;
-    font-size: 25px;
-    width: 260px;
-    height: 40px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background: #B62717;
-    border-radius: 18px
-}
-
-footer {
+/* footer {
     background: #B62717;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     width: 100%;
     height: 13vh;
     color: #FDFCDC;
     display: flex;
-}
+} */
