@@ -28,6 +28,9 @@ header {
     align-items: center;
 }
 
+.flex{
+    display: flex;
+}
 
 .RectangleRouge {
 
