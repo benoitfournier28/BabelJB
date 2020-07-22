@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+
+    width: 100%;
+    height: 100%;
+    font-family: 'Righteous', cursive, sans-serif;
+    text-align: center;
+    background-color: #FDFCDC;
+
+}
+
+
+/* ------------------------------------------------------- */
+
+header {
+
+    background: #B62717;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 13vh;
+    color: #FDFCDC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.RectangleRouge {
+
+    width: 85%;
+    height: 80px;
+    background: linear-gradient(90deg, rgba(182, 39, 23, 0.275) -1.06%, rgba(135, 34, 23, 0.5) 82.98%), rgba(182, 39, 23, 0.83);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.dragonball {
+
+    width: auto;
+    height: 60%;
+
+}
+
+
+.titre {
+
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Righteous', cursive, sans-serif;
+
+}
+
+.bar {
+
+    background: #FDFCDC;
+    width: 4.5%;
+    height: 4%;
+    transform: rotate(125deg);
+    border-radius: 30%;
+
+}
+
+
+.navigation {
+
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+
+}
+
+
+.CadreSearch {
+
+    width: 150px;
+    height: 35px;
+    background: #FDFCDC;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    color: rgba(182, 39, 23, 0.45);
+}
+
+
+/*  ------------------First cadre-----------------------------  */
+
+
+.Carré1 {
+
+    position: absolute;
+    top: 25%;
+    left: 23%;
+    width: 900px;
+    height: 400px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 27px;
+}
+
+.PetitRectangle {
+
+    color: #FDFCDC;
+    font-size: 25px;
+    position: absolute;
+    top: -5%;
+    width: 260px;
+    height: 40px;
+    background: #B62717;
+    border-radius: 18px 18px 18px 18px;
+
+}
+
+/* -------------------2nd cadre------------------------------------ */
+
+
+.CarréDeux {
+
+    position: absolute;
+    top: 100%;
+    left: 23%;
+    width: 900px;
+    height: 400px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 27px;
+
+}
+
+.PetitRectangleDeux {
+
+    color: #FDFCDC;
+    font-size: 25px;
+    position: absolute;
+    top: -5%;
+    width: 260px;
+    height: 40px;
+    background: #B62717;
+    border-radius: 18px 18px 18px 18px;
+
+}
+
+/* ------------------------------------------------------- */
+
+
+footer {
+
+    background: #B62717;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #FDFCDC;
+    position: absolute;
+    bottom: -90%;
+    padding-top: 50px;
+    height: 40px;
+    width: 100%;
+
+}
+
+
+
+/* -----------CARROUSEL ---- */
+
+
+.slidershow{
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navigationDeux{
+    position: absolute;
+    top: 100%;
+    left: 35%;
+    display: flex;
+}
+
+.barDeux{
+    width: 50px;
+    height: 10px;
+    border: 2px solid #B62717;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.barDeux:hover{
+    background:#B62717;
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+.slide{
+    width: 20%;
+    transition: 0.6s;
+}
+
+.slide img{
+    width: auto;
+    height: 100%;
+}
+
+#r1:checked ~ .s1{
+    margin-left: 0;
+}
+
+
+#r2:checked ~ .s1{
+    margin-left: -20%;
+}
+
+
+#r3:checked ~ .s1{
+    margin-left: -40%;
+}
+
+
+#r4:checked ~ .s1{
+    margin-left: -60%;
+}
+
+
+
+
+
+/* ----------- CARROUSEL DEUX ---- */
+
+
+.slidershow2{
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.middle2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navigation2{
+    position: absolute;
+    top: 100%;
+    left: 35%;
+    display: flex;
+}
+
+.bar2{
+    width: 50px;
+    height: 10px;
+    border: 2px solid #B62717;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar2:hover{
+    background:#B62717;
+}
+
+input[name="ra"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides2{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+.slide2{
+    width: 20%;
+    transition: 0.6s;
+}
+
+.slide2 img{
+    width: auto;
+    height: 100%;
+}
+
+#r5:checked ~ .s2{
+    margin-left: 0;
+}
+
+
+#r6:checked ~ .s2{
+    margin-left: -20%;
+}
+
+
+#r7:checked ~ .s2{
+    margin-left: -40%;
+}
+
+
+#r8:checked ~ .s2{
+    margin-left: -60%;
+}
+

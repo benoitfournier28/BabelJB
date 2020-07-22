@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    font-family: 'Righteous', cursive, sans-serif;
+    color: #FDFCDC;
+}
+
+body {
+
+    width: 100%;
+    height: 100%;
+    font-family: 'Righteous', cursive, sans-serif;
+    text-align: center;
+    background-color: #FDFCDC;
+
+}
+
+
+/* ------------------------------------------------------- */
+
+header {
+
+    background: #B62717;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 13vh;
+    color: #FDFCDC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.RectangleRouge {
+
+    width: 85%;
+    height: 80px;
+    background: linear-gradient(90deg, rgba(182, 39, 23, 0.275) -1.06%, rgba(135, 34, 23, 0.5) 82.98%), rgba(182, 39, 23, 0.83);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.dragonball {
+
+    width: auto;
+    height: 60%;
+
+}
+
+
+.titre {
+
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Righteous', cursive, sans-serif;
+
+}
+
+.bar {
+
+    background: #FDFCDC;
+    width: 4.5%;
+    height: 4%;
+    transform: rotate(125deg);
+    border-radius: 30%;
+
+}
+
+
+.navigation {
+
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+
+}
+
+
+.CadreSearch {
+
+    width: 150px;
+    height: 35px;
+    background: #FDFCDC;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    color: rgba(182, 39, 23, 0.45);
+}
+
+
+
+/* ------------------------------------------------------- */
+
+
+
+
+
+.cadre{
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 500px;
+    height: 150px;
+   
+    background: #B62717;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+    border-radius: 30px;
+
+
+}
+
+.genres{
+    font-size: 40px;
+}
+
+
+
+.corps{
+    width: auto;
+    height: 500px;;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+article{
+    font-size: small;
+}
